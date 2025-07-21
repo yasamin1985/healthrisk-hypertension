@@ -11,3 +11,5 @@ To estimate upcoming healthcare expenses based on chronic score and last year's 
 - Calibrated using national hypertension treatment cost data.
 
 ### 🚀 How to run locally:
+🔗 Streamlit App:
+https://healthrisk-hypertension-hfb8d5fr5ghvaijk5pqvtn.streamlit.app/
