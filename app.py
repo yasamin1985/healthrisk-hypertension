@@ -33,7 +33,7 @@ def load_reference_table():
     ref = pd.read_csv(url)
     return dict(zip(ref["Disease Name"], ref["Suggested Model"]))
 
-st.title("📦 Batch Prediction for Multiple Patients")
+st.title("📦 Hypertension Cost Predictor")
 st.markdown("Upload a CSV or Excel file with columns: Name, Age, Chronic_Score, Last_Year_Cost, Disease Name")
 
 uploaded_file = st.file_uploader("Upload patient data", type=["csv", "xlsx"])
